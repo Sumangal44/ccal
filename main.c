@@ -66,3 +66,7 @@ void displayBanner()
     printf("*         Made in C Language          *\n");
     printf("***************************************\n");
 }
+void sum(int a, int b)
+{
+    printf("%d + %d = %d\n", a, b, a + b);
+}
