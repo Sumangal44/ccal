@@ -58,3 +58,11 @@ int main()
     }
     return 0;
 }
+
+void displayBanner()
+{
+    printf("***************************************\n");
+    printf("*          BASIC CALCULATOR           *\n");
+    printf("*         Made in C Language          *\n");
+    printf("***************************************\n");
+}
