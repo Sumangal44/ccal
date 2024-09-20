@@ -58,7 +58,7 @@ int main()
     }
     return 0;
 }
-
+// Function to display a banner
 void displayBanner()
 {
     printf("***************************************\n");
@@ -80,3 +80,25 @@ void mul(int a, int b)
     printf("%d * %d = %d\n", a, b, a * b);
 }
 
+void div(int a, int b)
+{
+    if (b != 0)
+    {
+        printf("%d / %d = %d\n", a, b, a / b);
+    }
+    else
+    {
+        printf("Division by zero is not allowed!\n");
+    }
+}
+void rem(int a, int b)
+{
+    if (b != 0)
+    {
+        printf("%d %% %d = %d\n", a, b, a % b);
+    }
+    else
+    {
+        printf("Modulus by zero is not allowed!\n");
+    }
+}
